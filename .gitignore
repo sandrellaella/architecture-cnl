@@ -21,3 +21,5 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/org.architecture.cnl.parent/org.architecture.cnl/model/generated/*.genmodel
+/org.architecture.cnl.parent/org.architecture.cnl/model/generated/*.ecore
