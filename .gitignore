@@ -24,3 +24,9 @@ hs_err_pid*
 xtend-gen
 src-gen
 target
+*.genmodel
+*.ecore
+.project
+.classpath
+*.prefs
+
