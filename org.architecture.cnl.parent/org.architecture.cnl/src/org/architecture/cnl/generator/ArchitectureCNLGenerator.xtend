@@ -8,6 +8,7 @@ import api.OntologyAPI
 import datatypes.ArchitectureRules
 import datatypes.RuleType
 import java.io.File
+import java.nio.file.Files
 import java.util.ArrayList
 import org.architecture.cnl.architectureCNL.CanOnlyRuleType
 import org.architecture.cnl.architectureCNL.CardinalityRuleType
@@ -33,7 +34,6 @@ import org.semanticweb.owlapi.model.OWLClass
 import org.semanticweb.owlapi.model.OWLClassExpression
 import org.semanticweb.owlapi.model.OWLDataProperty
 import org.semanticweb.owlapi.model.OWLObjectProperty
-import java.nio.file.Files
 
 /**
  * Generates code from your model files on save.
