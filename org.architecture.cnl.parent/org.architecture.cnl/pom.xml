@@ -65,12 +65,7 @@
 								<include>**/*</include>
 							</includes>
 						</fileset>
-						<fileset>
-							<directory>${basedir}/../org.architecture.cnl.tests/src-gen/</directory>
-							<includes>
-								<include>**/*</include>
-							</includes>
-						</fileset>
+						
 						<fileset>
 							<directory>${basedir}/../org.architecture.cnl.ide/src-gen/</directory>
 							<includes>
