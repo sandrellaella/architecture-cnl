@@ -1,4 +1,0 @@
-Every Service that (has-name equal-to "A" and uses a Service that (has-name equal-to "B")) 
-must communicate-via a EJBCommunication that (has-source a Service that (has-name equal-to "A") and has-destination
-a Service that (has-name equal-to "B")).
-No Service can use a WebserviceCommunication.

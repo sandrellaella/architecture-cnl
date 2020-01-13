@@ -2,7 +2,7 @@ package org.architecture.cnl.ide;
 
 import java.util.List;
 
-import org.architecture.cnl.ArchitectureCNLStandaloneSetup;
+import org.architecture.cnl.ArchcnlStandaloneSetup;
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.xtext.generator.GeneratorDelegate;
@@ -17,9 +17,8 @@ import org.eclipse.xtext.validation.Issue;
 import com.google.inject.Injector;
 
 public class CNL2OWLGenerator {
-
 	public void transformCNLFile(String path) {
-		ArchitectureCNLStandaloneSetup setup = new ArchitectureCNLStandaloneSetup();
+		ArchcnlStandaloneSetup setup = new ArchcnlStandaloneSetup();
 
 		Injector injector = setup.createInjectorAndDoEMFRegistration();
 

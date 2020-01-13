@@ -12,10 +12,10 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
-	
 	<modules>
 		<module>org.architecture.cnl</module>
 		<module>org.architecture.cnl.ide</module>
+		<module>org.architecture.cnl.tests</module>
 	</modules>
 	<build>
 		<pluginManagement>

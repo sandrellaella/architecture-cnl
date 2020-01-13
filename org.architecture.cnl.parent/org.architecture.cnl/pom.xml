@@ -40,7 +40,7 @@
 				<configuration>
 					<mainClass>org.eclipse.emf.mwe2.launch.runtime.Mwe2Launcher</mainClass>
 					<arguments>
-						<argument>/${project.basedir}/src/org/architecture/cnl/GenerateArchitectureCNL.mwe2</argument>
+						<argument>/${project.basedir}/src/org/architecture/cnl/GenerateArchcnl.mwe2</argument>
 						<argument>-p</argument>
 						<argument>rootPath=/${project.basedir}/..</argument>
 					</arguments>
@@ -61,6 +61,12 @@
 					<filesets combine.children="append">
 						<fileset>
 							<directory>${basedir}/../org.architecture.cnl/src-gen/</directory>
+							<includes>
+								<include>**/*</include>
+							</includes>
+						</fileset>
+						<fileset>
+							<directory>${basedir}/../org.architecture.cnl.tests/src-gen/</directory>
 							<includes>
 								<include>**/*</include>
 							</includes>
@@ -163,13 +169,11 @@
 	</build>
 
 	<dependencies>
-
 		<dependency>
 			<groupId>net.sourceforge.owlapi</groupId>
 			<artifactId>owlapi-distribution</artifactId>
 			<version>5.1.0</version>
 		</dependency>
-		
 		<dependency>
 			<groupId>org.eclipse.xtext</groupId>
 			<artifactId>org.eclipse.xtext</artifactId>
@@ -192,8 +196,5 @@
 			<version>2.9.1.201705291010</version>
 			<optional>true</optional>
 		</dependency>
-		
 	</dependencies>
-	
-
 </project>
